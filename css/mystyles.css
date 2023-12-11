@@ -1,6 +1,13 @@
-/* h1{ */
+h1{
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
-/* } */
+}
 .diffbg{
     background-color: rgb(18, 18, 148) !important;
+}
+
+.text-primary{
+    color: rgb(18,18,148) !important;
+}
+a{
+    color: rgb(18,18,148);
 }
