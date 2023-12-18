@@ -4,8 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau Page</title>
+    <link rel="stylesheet" href="../css/mystyles.css">
 </head>
-<body>
-    
+<body class="bg">
+    <div class="heading comm_head">
+        <h1 id="heading">Jane's Hobbies</h1>
+    </div>
+    <div class="comm_nav">
+        <a href="../index.html">Back to Resumé</a> ||
+        <a href="#video">To Video</a> ||
+        <a href="#tableau">To Tableau</a>
+    </div>
+    <div class="comm_body"><ol>
+        <li>Playing the piano.</li>
+        <br>
+        <li>Reading books.</li>
+            <ul>
+                Here is what I am currently reading:
+                <li>Lord of the Rings: The Two Towers by J.R.R. Tolkien</li>
+                <li>The Book of Mormon</li>
+                <li>The New Testament (King James Version)</li>
+                <li>More that I currently forgot :/</li>
+            </ul>
+            <br>
+            <ul>
+                Here is what I am hoping to read in the future (before I die, hopefully):
+                <li>Harry Potter books 3-7 : J.K. Rowling</li>
+                <li>The Lord of the Rings: The Return of the King by J.R.R. Tolkien</li>
+                <li>The Silmarillion by J.R.R. Tolkien</li>
+                <li>What If? (I started this one but forgot it in Colorado) by Randall Munroe</li>
+                <li>Mistborn (also started this one, but haven't read it in a while) by Brandon Sanderson</li>
+                <li>Either/Or by Kierkegaard</li>
+                <li>Fear and Trembling by Kierkegaard</li>
+                <li>Always more (I can't remember the rest!)</li>
+            </ul>
+            <br>
+        <li>Writing poetry.</li>
+        <br>
+        <li>Finding Lord of the Rings memes.</li>
+        <br>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/vnDspiYT6AA?si=uVKfaut-Zjmf8EuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="They're taking the hobbits to Isengard!" id="video"></iframe>
+        </center>
+        <br>
+        <li>Finding swimming memes.</li>
+        <br>
+        <img src="https://swimjim.com/wp-content/uploads/2017/10/22278001_830979083749326_7638596286509219840_n-1.jpg" alt="Butterfly... Butterwhy... Butercry... Butterdie" width="25%" class="cntr">
+        <br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIJtgH02f6CydDiOAsw8qDrQZTtZfazdR8YA&usqp=CAU" alt="Distance practice is rough :'(" width="25%" class="cntr">
+        <br>
+        <li>Knitting.</li>
+        <br>
+        <li>Crocheting.</li>
+        <br>
+        <li>Swimming (higher on the list when I have my swim gear, accidentally left it at home).</li>
+        <br>
+        <li>Watercolor painting.</li>
+        <br>
+    </ol>
+    </div>
+    <div class="comm_body tableau" id="tableau">
+        <p>EPIC LOTR Tableau Dashboard :)</p>
+        <div class='tableauPlaceholder' id='viz1702932060640' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                <img alt='LOTR ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QG&#47;QGMMYCFN3&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='path' value='shared&#47;QGMMYCFN3' /> 
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QG&#47;QGMMYCFN3&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1702932060640');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        if ( divElement.offsetWidth > 800 ) { 
+            vizElement.style.width='1400px';vizElement.style.height='2077px';
+        } 
+        else if ( divElement.offsetWidth > 500 ) { 
+            vizElement.style.width='1400px';vizElement.style.height='2077px';
+            } 
+        else { 
+            vizElement.style.width='1400px';vizElement.style.height='2077px';
+        }                     
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+    </div>
+    <div class="comm_foot"><a href="#heading">Back To Top</a></div>
 </body>
 </html>
